@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+form {
+    text-align: center;
+}
+
+.chat {
+    height: 80%;
+    overflow: scroll;
+}
+
+.chat div {
+    padding: 10px;
+    justify-content: center;
+    flex-direction: column;
+}
